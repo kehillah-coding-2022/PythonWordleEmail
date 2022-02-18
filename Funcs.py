@@ -31,15 +31,15 @@ def get_words():
     possible_words = ast.literal_eval(words)
 
     return possible_words
-    
+
 def wordOfDay():
 	"""
 	Determine the word of the day using a predetermined starting point. Messing with any of the values below will make it inaccurate
 	"""
-    today = date.today()
-    old = date(2022, 2, 17)
-    dateSince = (today - old)
-    daySince = (dateSince.days)
-    integer = (243 + daySince)
-    List = get_words()
-    return List[integer]
+	today = date.today()
+	old = date(2022, 2, 17)
+	dateSince = (today - old)
+	daySince = (dateSince.days)
+	integer = (243 + daySince)
+	List = get_words()
+	return List[integer]
