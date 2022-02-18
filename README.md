@@ -1,0 +1,2 @@
+# PythonWordleEmail
+Spoil the Wordle
